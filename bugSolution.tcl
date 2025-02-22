@@ -1,0 +1,1 @@
+proc myproc {a b} { upvar 1 a localA upvar 1 b localB puts "a is $localA" puts "b is $localB"} myproc 1 2
